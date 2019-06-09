@@ -26,7 +26,7 @@ SECRET_KEY = '8!sorsaki47*p)is2mn6srgy-%gxpz7&54o*-8wilo1_*f83dy'
 DEBUG = True
 
 ALLOWED_HOSTS = []
-
+AUTH_USER_MODEL = 'lists.User'
 
 # Application definition
 
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'lists',
 ]
 
 MIDDLEWARE = [
